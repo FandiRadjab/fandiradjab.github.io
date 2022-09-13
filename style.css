@@ -12,7 +12,7 @@ body{
 	background-repeat: no-repeat;  */
 	background-color: rgb(200, 207, 212);
 	height: 70vh;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 
 .jumbotron	.judul{
@@ -26,7 +26,7 @@ body{
 
 .jumbotron img{
 	height: 100%;
-	margin: 0 5% 0 5% ;
+	/* margin: 0 5% 0 5% ; */
 	float: left;
 }
 
@@ -132,7 +132,7 @@ footer{
 	margin-right: 25px;
 	transition: all 0.4s cubic-bezier(0.175,0.885, 0,1);
 	background-color: #fff;
-	width: 22%;
+	width: 250px;
 	position: relative;;
 	border-radius: 12px;
 	overflow: hidden;
