@@ -60,22 +60,39 @@ body{
 
 .x-card--1 .x-card__img,
 .x-card--1 .x-card__img--hover{
-	background-image: url(img/pic1.jpg);
+	background-image: url(img/D1.jpg);
 }
 
 .x-card--2 .x-card__img,
 .x-card--2 .x-card__img--hover{
-	background-image: url(img/pic2.jpg);
+	background-image: url(img/D2.png);
 }
 
 .x-card--3 .x-card__img,
 .x-card--3 .x-card__img--hover{
-	background-image: url(img/pic3.jpg); 
+	background-image: url(img/D3.png); 
 } 
 
 .x-card--4 .x-card__img,
 .x-card--4 .x-card__img--hover{
-	background-image: url(img/pic4.jpg); 
+	background-image: url(img/D4.png); 
+} 
+
+.x-card--5 .x-card__img,
+.x-card--5 .x-card__img--hover{
+	background-image: url(img/D5.png); 
+} 
+.x-card--6 .x-card__img,
+.x-card--6 .x-card__img--hover{
+	background-image: url(img/D6.jpg); 
+} 
+.x-card--7 .x-card__img,
+.x-card--7 .x-card__img--hover{
+	background-image: url(img/D7.png); 
+} 
+.x-card--8 .x-card__img,
+.x-card--8 .x-card__img--hover{
+	background-image: url(img/D8.png); 
 } 
 
 
@@ -131,7 +148,7 @@ body{
 
 .x-card__info{
 	z-index: 2;
-	background-color: #fff;
+	background-color: #ffffff;
 	border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;
 	padding: 16px 24px 24px 24px;
@@ -161,12 +178,18 @@ body{
 .x-card:hover .x-card__img--hover{
 	height: 100%;
 	opacity: 1;
+	filter: blur(3px);
 }
 
 .x-card:hover .x-card__info{
 	background-color: transparent;
 	position: relative;
-	color: white;
+}
+
+.x-card:hover .x-card__info.blackmode{
+	background-color: transparent;
+	position: relative;
+	color: rgb(230, 230, 230);
 }
 
 .x-card:hover .x-card__info-hover{
@@ -182,6 +205,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 10px;
 }
 
 
