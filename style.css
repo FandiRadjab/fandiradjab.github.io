@@ -282,6 +282,11 @@ footer{
 	.short-desc{
 		padding-bottom: 5%;
 	}
+
+	footer{
+		font-size: smaller;
+	}
+
   }
 
   
