@@ -15,6 +15,9 @@ body{
 	margin-top: 30px;
 }
 
+/* .container{
+	border: 1px solid red;
+} */
 
 
 .judul{
@@ -47,6 +50,14 @@ body{
 	margin-right: 30px;
 }
 
+.sosmed ul{
+	padding: 0;
+}
+
+.sosmed li{
+	display: inline-block;
+	margin-right: 30px;
+}
 
 /* cards */
 
@@ -208,8 +219,9 @@ footer{
 	padding-top: 10px;
 }
 
-
-
+.short-desc{
+	padding: 2%;
+}
 
 /* Media Queries */
 
@@ -266,9 +278,10 @@ footer{
 		display: inline-block;
 		width: 30px;
 	}
-	
 
-
+	.short-desc{
+		padding-bottom: 5%;
+	}
   }
 
   
